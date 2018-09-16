@@ -1,0 +1,205 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-12 16:38:09
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-16 16:57:20
+*/
+header{
+	width: 100%;
+	height: 3.25rem;
+	background-color: #0fbaee;
+
+
+}
+header .tubiao{
+	width: 7.5rem;
+	height: 0.87rem;
+/* 	background-color: white; */
+	display: flex;
+	flex-direction: row;
+
+}
+header .tubiao .ic{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic img{
+	display: block;
+	width: 0.26rem;
+	height: 0.36rem;
+	margin-left: 0.2rem;
+	margin-top: 0.3rem;
+}
+header .tubiao .font h3{
+font-size: 0.3rem;
+margin-left: 2.5rem;
+margin-top: 0.3rem;
+color: white;
+}
+
+header .zhuti{
+	width: 7.5rem;
+	height: 2.37rem;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: row;
+}
+header .zhuti .left{
+	width: 2.70rem;
+	height: 2.41rem;
+}
+header .zhuti .left img{
+	display: block;
+	width: 1.17rem;
+	height: 1.18rem;
+	margin-left: 0.9rem;
+	margin-top: 0.65em;
+}
+header .zhuti .right{
+	width: 4.65rem;
+	height: 2.26rem;
+}
+header .zhuti .right .dianname{
+	width: 3.45rem;
+	height: 0.44rem;
+	/* background-color: red; */
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: row;
+}
+header .zhuti .right .dianname p{
+	font-size: 0.3rem;
+}
+header .zhuti .right .dian{
+	width: 3.8rem;
+	height: 0.20rem;
+	margin-top: -0.1rem;
+}
+header .zhuti .right .dian p{
+	font-size: 0.24rem;
+/* 	display: block; */
+/* 	line-height: 3.8rem; */
+
+}
+header .zhuti .right .jieshao{
+	width: 4.47rem;
+	height: 0.75rem;
+	margin-top: 0.2rem;
+}
+header .zhuti .right .jieshao p{
+	font-size: 0.2rem;
+}
+main .zhuti{
+	width: 7.5rem;
+	height: 3.45rem;
+	background-color:#ffffff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+main .zhuti .box1{
+	width: 1rem;
+	height: 1rem;
+	background-image: url('../img/ture.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0.5rem;
+	margin-left: 3.2rem;
+
+}
+main .zhuti .box2{
+	width: 5rem;
+	height: 0.5rem;
+	/* background-color: red; */
+	margin-top: 0.2rem;
+	margin-left: 2rem;
+
+}
+main .zhuti .box2 h3{
+	font-size: 0.3rem;
+}
+main .zhuti .box3{
+	width: 100%;
+	height: 1rem;
+	/* background-color: red; */
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+
+}
+main .zhuti .box3 .left{
+	width: 1.93rem;
+	height: 0.7rem;
+	background-color: #15bbee;
+	margin-top: 0.2rem;
+	border-radius: 0.35rem;
+}
+main .zhuti .box3 .left a h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #333;
+}
+main .zhuti .box3 .right{
+	width: 1.93rem;
+	height: 0.7rem;
+	background-color: #15bbee;
+	margin-top: 0.2rem;
+	border-radius: 0.35rem;
+/* 	margin-top: 0.2rem;
+	margin-left: 2.2rem; */
+}
+main .zhuti .box3 .right a h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #333;
+}
+.food{
+	width: 7.02rem;
+	height: 8.56rem;
+	/* background-color: orange; */
+	margin-left: 0.24rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.food .top{
+	width: 7.03rem;
+	height: 0.5rem;
+	/* background-color: #eeeeee; */
+}
+.food .top h3{
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+	color: #46c7ee;
+}
+.food .food1{
+	width: 3.15rem;
+	height: 3.6rem;
+	background-color: #eeeeee;
+	border-radius: 0.1rem;
+}
+.food .food1 .top{
+	width: 3.12rem;
+	height: 2.1rem;
+	background-image: url('../img/yuanjiao.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.food .food1 .foot h3{
+	margin-top: 0.1rem;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.food .food1 .foot h4{
+	font-size: 0.25rem;
+	text-align: center;
+}
+.food .food1 .foot h5{
+	font-size: 0.3rem;
+	text-align: center;
+	color: red;
+}

@@ -1,0 +1,558 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-09 13:35:55
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-16 15:57:56
+*/
+.zyx .zhuti{
+	width:100%;
+	height: 16.13rem;
+	background-image: url('../img/datu.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: none;
+	z-index: 9;
+}
+.zyx  .box{
+	width: 5.56rem;
+	height: 5.56rem;
+	background-color: #0fbaee;
+	position: absolute;
+	left: 1rem;
+	top: 4rem;
+	border-radius: 0.2rem;
+	/* margin: auto 0; */
+}
+.zyx  .box .box2{
+	width: 5.58rem;
+	height: 3.25rem;
+	background-image: url('../img/enterpay.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0.2rem;
+}
+.zyx  .box .box3{
+	width: 2.5rem;
+	height: 0.5rem;
+	/* background-color: green; */
+	margin-left: 0.5rem;
+}
+.zyx  .box .box3 h3{
+	font-size: 0.3rem;
+	margin-left: 0.1rem;
+}
+.zyx  .box .box4{
+	width: 2.5rem;
+	height: 0.5rem;
+	/* background-color: green; */
+	margin-left: 0.5rem;
+}
+.zyx  .box .box4 h3{
+	font-size: 0.25rem;
+	margin-left: 0.1rem;
+	font-weight: normal;
+	/* text-align: center; */
+	line-height: 0.5rem;
+}
+.zyx  .box .box5{
+	width: 2.5rem;
+	height: 0.5rem;
+	/* background-color: green; */
+	margin-left: 0.5rem;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.zyx  .box .box5 .box1{
+	width: 0.5rem;
+	height: 0.5rem;
+	background-image: url('../img/add.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	/* margin-left: 0.5rem; */
+	margin-top: -0.9rem;
+}
+.zyx  .box .box5 .box8 h3{
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+	margin-top: -0.9rem;
+}
+.zyx  .box .box6{
+	width: 2.0rem;
+	height: 0.5rem;
+	/* background-color: green; */
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.zyx  .box .box6 h3{
+	font-size: 0.3rem;
+	color: red;
+	/* text-align: center; */
+
+}
+.zyx  .box .box7{
+	width: 2.3rem;
+	height: 0.5rem;
+	background-color: orange;
+	margin-left: 0.5rem;
+	float: right;
+	margin-top: -0.38rem;
+	border-radius: 0.25rem;
+	margin-right: 0.3rem;
+
+}
+.zyx  .box .box7 a h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #333;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+header{
+	width: 100%;
+	height: 4.90rem;
+	background-color: #0fbaee;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+header .tubiao{
+	width: 7.5rem;
+	height: 0.87rem;
+/* 	background-color: white; */
+	display: flex;
+	flex-direction: row;
+
+}
+header .tubiao .ic{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic img{
+	display: block;
+	width: 0.26rem;
+	height: 0.36rem;
+	margin-left: 0.2rem;
+	margin-top: 0.3rem;
+}
+header .tubiao .ic2{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic2 img{
+	margin-left: 5.3rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+header .tubiao .ic3{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic3 img{
+	margin-left: 5.5rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+header .zhuti{
+	width: 7.5rem;
+	height: 2.37rem;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: row;
+}
+header .zhuti .left{
+	width: 2.70rem;
+	height: 2.41rem;
+}
+header .zhuti .left img{
+	display: block;
+	width: 1.17rem;
+	height: 1.18rem;
+	margin-left: 0.9rem;
+	margin-top: 0.65em;
+}
+header .zhuti .right{
+	width: 4.65rem;
+	height: 2.26rem;
+}
+header .zhuti .right .dianname{
+	width: 3.45rem;
+	height: 0.44rem;
+	/* background-color: red; */
+	margin-top: 0.5rem;
+}
+header .zhuti .right .dianname p{
+	font-size: 0.3rem;
+}
+header .zhuti .right .dian{
+	width: 3.8rem;
+	height: 0.20rem;
+	margin-top: -0.1rem;
+}
+header .zhuti .right .dian p{
+	font-size: 0.24rem;
+/* 	display: block; */
+/* 	line-height: 3.8rem; */
+
+}
+header .zhuti .right .jieshao{
+	width: 4.47rem;
+	height: 0.75rem;
+}
+header .zhuti .right .jieshao p{
+	font-size: 0.2rem;
+}
+header .zhuti .right .manjian{
+	width: 4.15rem;
+	height: 0.38rem;
+	display: flex;
+	flex-direction: column;
+}
+header .zhuti .right .manjian .left{
+	width: 2.38rem;
+	height: 0.35rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: -0.5rem;
+	margin-bottom: 0.35rem;
+
+}
+header .zhuti .right .manjian .left .tu1{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	background-image: url('../img/dizhi.png');
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 0.2rem 0.28rem; 
+
+}
+
+header .zhuti .right .manjian .left .tu1 p{
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.35rem;
+}
+header .zhuti .right .manjian .left .tu2{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	background-image: url('../img/shijian.png');
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 0.2rem 0.28rem; 
+}
+header .zhuti .right .manjian .right{
+	width: 0.2rem;
+	height: 0.23rem;
+}
+header .zhuti .right .manjian .right p{
+	font-size: 0.18rem;
+	margin-left: 0.5rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	color: yellow;
+}
+header .zhuti .right .manjian .left .tu2 p{
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.35rem;
+}
+header .biaoyu p{
+	font-size:0.3rem; 
+	text-align: center;
+}
+header .botton{
+	width: 7.5rem;
+	height: 1.3rem;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+}
+header .botton .quan{
+	width: 4.1rem;
+	height: 0.68rem;
+	background-color: #C4FBF6;
+	border-radius: 0.34rem;
+	margin:0 auto;
+	margin-top: 0.3rem;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+header .botton .quan h6{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.6rem;
+	display:block;
+	margin-left: 2.6rem; 
+
+
+}
+header .botton .quan1 h6{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.6rem;
+	position: absolute;
+	margin-left: 0.6rem;
+/* 	margin-bottom: 0.2rem;
+	display: block; */
+}
+header .botton .quan1{
+	width: 1.73rem;
+	height: 0.52rem;
+	background-color: orange;
+	border-radius: 0.26rem;
+	margin-left: 0.1rem;
+	margin-top: 0.1rem;
+	position: absolute;
+/* 	position: relative; */
+}
+
+header .biaoyu{
+	width: 7.5rem;
+	height: 0.46rem;
+	background: #fbfbaa;
+}
+main {
+	width:100%;
+	height: 100%;
+	/* background-color: red; */
+	margin-top: 4.90rem;
+	margin-bottom: 0.98rem;
+	float: left;
+}
+main .list{
+	width: 2.28rem;
+	height: 7.00rem;
+	background-color: #f4f4f4;
+/* 	margin-top: 4.90rem; */
+	float: left;
+}
+main .list .lis{
+	width: 2.28rem;
+	height: 1.36rem;
+	background: #0fbaee;
+	border-bottom:0.1rem solid #0fbaee;
+}
+main .list .lis{
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 1.34rem;
+}
+main .content{
+	width: calc(100% - 2.28rem);
+	height: calc(100% - 4.47rem);
+	/* background-color: pink; */
+	float: left;
+	overflow: scroll;
+	padding-left: 0.24rem;
+	padding-right: 0.44rem;
+}
+main .content ul{
+	width: 4.1rem;
+
+
+}
+main .content ul li{
+	width: 4.73rem;
+	height: 1.73rem;
+	background-color: #f6f6f6;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+}
+main .content ul li .add{
+	width: 0.22rem;
+	height: 0.22rem;
+	position: absolute;
+	margin-left: 4.0rem;
+}
+main .content ul li .add2{
+	width: 0.22rem;
+	height: 0.22rem;
+	position: absolute;
+	margin-left: 3.2rem;
+}
+main .content ul li .add3{
+	width: 0.22rem;
+	height: 0.22rem;
+	position: absolute;
+	margin-left: 3.7rem;
+	margin-top: 0.75rem;
+	/* background-color: red; */
+	
+}
+main .content ul li .add3 h3{
+	font-size: 0.2rem;	
+}
+main .content .left{
+	background-image: url('../img/Malabar.png');
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 1rem;
+	height: 1.5rem;
+	/* background: black; */
+}
+main .content ul li .right{
+	width: 2.14rem;
+	height: 1.48rem;
+}
+main .content ul li .right .biaoti{
+	width: 1.84rem;
+	height: 0.38rem;
+	/* background-color: red; */
+}
+main .content ul li .right .biaoti h4{
+	font-size: 0.22rem;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+main .content ul li .right .star{
+	width: 1.88rem;
+	height: 0.35rem;
+	/* background-color: yellow; */
+}
+main .content ul li .right .star h4{
+	font-size: 0.22rem;
+	margin-left: 0.3rem;
+	/* color: yellow; */
+}
+main .content ul li .right .yuan{
+	width: 1.88rem;
+	height: 0.33rem;
+	/* background-color: green; */
+}
+main .content ul li .right .yuan h4{
+	font-size: 0.22rem;
+	margin-left: 0.3rem;
+	color: red;
+/* 	background-color: red; */
+}
+main .content ul li .right .xiaol{
+	width: 1.88rem;
+	height: 0.35rem;
+	/* background-color: orange; */
+}
+main .content ul li .right .xiaol h4{
+	font-size: 0.2rem;
+	margin-left: 0.35rem;
+	color: #dae2e2;
+	line-height: 0.35rem;
+}
+.di{
+	/*display: none;*/
+}
+ footer.di{
+	width: 100%;
+	height: 1.1rem;
+	/* background-color: #000; */
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	/* position: relative; */
+
+}
+ footer.di .box{
+	width: 0.8rem;
+	height: 0.8rem;
+	background-image: url('../img/gouwuche.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.8rem;
+}
+footer.di  .left{
+	width: 4.7rem;
+	height: 1.1rem;
+
+	background-color: #d3d2d2;
+}
+footer.di  .left h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.1rem;
+}
+ footer.di .right{
+	width: 2.8rem;
+	height: 1.1rem;
+	background-color: #f0b1b9;
+}
+ footer.di .right h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.1rem;
+}
+
+.xiaf{
+	width: 100%;
+	height: 1.1rem;
+	/* background-color: #000; */
+
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	display: none;
+
+}
+footer.xiaf .box{
+	width: 0.8rem;
+	height: 0.8rem;
+	background-image: url('../img/gouwuche1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	left: 1rem;
+	bottom: 0.8rem;
+}
+footer.xiaf .left{
+	width: 4.7rem;
+	height: 1.1rem;
+	
+	background-color: #0fbaee;
+}
+footer.xiaf .left h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.1rem;
+}
+footer.xiaf .right{
+	width: 2.8rem;
+	height: 1.1rem;
+	background-color: #f53148;
+}
+footer.xiaf .right a h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.1rem;
+	color: #333;
+}

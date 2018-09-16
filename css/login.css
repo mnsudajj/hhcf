@@ -1,0 +1,191 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-14 18:23:08
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-14 22:57:12
+*/
+main{
+	/* overflow: hidden; */
+	/* position: relative; */
+}
+main .box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/bg2.png');
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+main .test{
+	width: 5.47rem;
+	height: 5.33rem;
+	background-color: rgba(230, 233, 232, 0.5);
+	position: absolute;
+	top: 6.67rem;
+	left: 1rem;
+	z-index: 0;
+	/* float: left; */
+}
+main .box .box2{
+	position: relative;
+}
+main .box .top{
+	width: 2.80rem;
+	height: 2.80rem;
+	border-radius: 1.4rem;
+	background-image: url('../img/man.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 2.4rem;
+	top: 4.5rem;
+	z-index: 999;
+
+}
+main .test .text{
+	width: 1.31rem;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	margin-top: 1rem;
+	margin-left: 0.5rem;
+}
+main .test .text h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+main .test .text1{
+	width: 4.78rem;
+	height: 0.7rem;
+	background-color: #fff;
+	margin-left: 0.3rem;
+	border-radius: 0.35rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+main .test .text1 input{
+	margin-left: 0.2rem;
+	height: 0.5rem;
+	border: none;
+	outline: none;
+}
+main .test .text1 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/yonghu 4.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+main .test .text3{
+	width: 1.31rem;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+main .test .text3 h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+main .test .text4{
+	width: 4.78rem;
+	height: 0.7rem;
+	background-color: #fff;
+	margin-left: 0.3rem;
+	border-radius: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+main .test .text4 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/suo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+main .test .text4 input{
+	margin-left: 0.2rem;
+	height: 0.5rem;
+	border: none;
+	outline: none;
+	margin-top: 0.1rem;
+}
+main .test .text5{
+	width: 4.8rem;
+	height: 0.46rem;
+	/* background-color: green; */
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+main .test .text5 .box1{
+	width: 1.2rem;
+	height: 0.44rem;
+	/* background-color: black; */
+}
+main .test .text5 .box1 h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.44rem;
+}
+main .test .text5 .box2{
+	width: 1.2rem;
+	height: 0.44rem;
+	/* background-color: black; */
+}
+main .test .text5 .box2 h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.44rem;
+}
+main .test .text6{
+	width: 1.9rem;
+	height: 0.5rem;
+	border-radius: 0.25rem;
+	margin-left: 1.75rem;
+	background-color: orange;
+	margin-top: 0.1rem;
+}
+main .test .text6 h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+main .test .text7{
+	width: 3.86rem;
+	height: 0.55rem;
+	/* background-color: pink; */
+	margin-left: 0.75rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+main .test .text7 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/QQ.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main .test .text7 .box2{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/winx.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,182 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-14 23:04:50
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-15 22:58:30
+*/
+main{
+	/* overflow: hidden; */
+	/* position: relative; */
+}
+main .box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/bg2.png');
+	/* background-position: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+main .test{
+	width: 5.47rem;
+	height: 5.75rem;
+	background-color: rgba(230, 233, 232, 0.5);
+	position: absolute;
+	top: 4.06rem;
+	left: 1rem;
+}
+
+main .test .text{
+	width: 1.31rem;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	margin-top: 0.4rem;
+	margin-left: 0.5rem;
+}
+main .test .text h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+main .test .text1{
+	width: 4.78rem;
+	height: 0.7rem;
+	background-color: #fff;
+	margin-left: 0.3rem;
+	border-radius: 0.35rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+main .test .text1 input{
+	margin-left: 0.2rem;
+	height: 0.5rem;
+	border: none;
+	outline: none;
+}
+main .test .text1 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/yonghu 4.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.1rem;
+	margin-left: 0.2rem;
+}
+main .test .text3{
+	width: 1.31rem;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+main .test .text3 h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+main .test .text4{
+	width: 4.78rem;
+	height: 0.7rem;
+	background-color: #fff;
+	margin-left: 0.3rem;
+	border-radius: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+main .test .text4 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/salf.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+main .test .text4 input{
+	margin-left: 0.2rem;
+	height: 0.5rem;
+	width: 1.45rem;
+	border: none;
+	outline: none;
+	margin-top: 0.1rem;
+}
+main .test .text4 .box2{
+	width: 1.8rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-image: url('../img/yanz.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 0.5rem;
+	margin-top: 0.05rem;
+}
+main .test .text5{
+	width: 1.31rem;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	margin-top: 0.3rem;
+	margin-left: 0.5rem;
+}
+main .test .text5 h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.34rem;
+}
+main .test .text6{
+	width: 4.78rem;
+	height: 0.7rem;
+	background-color: #fff;
+	margin-left: 0.3rem;
+	border-radius: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+main .test .text6 .box1{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-image: url('../img/suo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+main .test .text6 input{
+	margin-left: 0.2rem;
+	height: 0.5rem;
+	border: none;
+	outline: none;
+	margin-top: 0.1rem;
+}
+main .test a{
+	width: 3.5rem;
+	height: 0.76rem;
+	display: block;
+	/* margin-left: 0.2rem; */
+}
+main .test a .text7{
+	width: 3.5rem;
+	height: 0.76rem;
+	background-image: url('../img/zc.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0.2rem;
+	margin-left: 1rem;
+}
+main .text8{
+	width: 1.85rem;
+	height: 0.57rem;
+	background-image: url('../img/join.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 11.78rem;
+	left: 4.4rem;
+	position: absolute;
+}

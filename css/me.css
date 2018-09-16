@@ -1,0 +1,170 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-16 22:41:44
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-16 23:05:49
+*/
+body{
+	background-color:#ffffff;
+}
+header{
+	width: 100%;
+	height: 1.3rem;
+	background-color: #0fbaee;
+/* 	position: fixed;
+	top: 0;
+	left: 0; */
+}
+header .tubiao{
+	width: 7.5rem;
+	height: 0.87rem;
+/* 	background-color: white; */
+	display: flex;
+	flex-direction: row;
+}
+header .tubiao .zi{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .zi h4{
+	display: block;
+	font-size: 0.35rem;
+	width: 2.4rem;
+	height: 0.66rem;
+	margin-left: 2.2rem;
+	margin-top: 0.2rem;
+	color: #c1e8f4;
+}
+header .tubiao a .ic{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic img{
+	display: block;
+	width: 0.44rem;
+	height: 0.44rem;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+/* header .tubiao .ic2{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic2 img{
+	margin-left: 4.5rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+} */
+header .tubiao .ic3{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic3 img{
+	margin-left: 5.3rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.44rem;
+	height: 0.44rem;
+}
+main{
+	width: 7.5rem;
+	height: 10.7rem;
+	background-image: url('../img/me2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+footer{
+	width: 7.5rem;
+	height: 1rem;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+footer .icon{
+	width: 0.91rem;
+	height: 0.76rem;
+/* 	background: green; */
+
+}
+footer .icon .tu1{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu1 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+
+}
+footer .icon .tu1 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}
+footer .icon .tu2{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu2 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu2 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}
+footer .icon .tu3{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu3 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu3 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}
+footer .icon .tu4{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu4 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu4 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}

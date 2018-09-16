@@ -1,0 +1,887 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-08 09:10:37
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-16 18:51:09
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	list-style: none;
+	text-decoration: none;
+
+}
+header{
+	width: 7.5rem;
+	height: 0.84rem;
+	background-color: #0fbaee;
+}
+header .pos{
+	width: 0.88rem;
+	height: 100%;
+	background-color: #0fbaee;
+	float: left;
+	font-size: 0.14rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.9rem;
+	margin-left: 0.23rem;
+
+}
+header input{
+	float: left;
+	width: 4.5rem;
+	height: 0.35rem;
+	background-color: white;
+	background-image: url('../img/sousuo.png');
+	background-repeat: no-repeat;
+	background-size: 0.32rem 0.32rem;
+	background-position: 0.11rem center;
+	border-radius: 0.3rem;
+	border: none;
+	margin: 0.27rem 0 0.77rem;
+	padding-left: 0.5rem;
+	font-size: 0.24rem;
+}
+header .search{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-color: white;
+	background-image: url('../img/scan.png');
+	background-size: 0.32rem 0.32rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0.22rem;
+	float: right;
+	margin-top: 0.23rem;
+	margin-right: 0.6rem;
+}
+header .search .iconfont:{
+	margin-top: 0.21rem;
+	font-size: 0.18rem;
+}
+input::-webkit-input-placeholder{
+	color: #e1e1e1;
+	font-size: 0.24rem;
+}
+.banner{
+	width: 7.5rem;
+	height: 3.8rem;
+
+	/*background-image: url('../img/banner1.png');*/
+	/*background-size: 7.5rem 3.8rem;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;	*/
+}
+.banner img{
+	width:100%;
+	height:100%;
+}
+
+nav{
+	width: 100%;
+	height: 3.94rem;
+	background-color: white;
+	padding: 0	0.24rem;
+}
+nav main{
+	height: 100%;
+	border-bottom: 0.01rem solid #fff;
+	background-color: white;
+}
+nav main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+nav main ul li{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li2{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue2.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li3{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue3.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li4{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue4.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li5{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue5.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li6{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue6.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li7{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue7.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main ul li8{
+	width: 25%;
+	height: 1.95rem;
+	background-image: url('../img/blue8.png');
+	background-position: center;
+	background-size: ;
+	background-repeat: no-repeat;
+	border: 0.01rem solid white;
+}
+nav main span{
+	display: block;
+	width: 1rem;
+	font-size: 0.16rem;
+	margin: 1.5rem 0.62rem 0.5rem;
+	color: #52C8EE;
+	/* text-align: center; */
+}
+nav main span:nth-child(7){
+	margin: 1.5rem 0.4rem 0.5rem;
+/* 	color: black; */
+}
+.shop img{
+	width: 7.5rem;
+	height: 1.0rem;
+	margin-top: 0.2rem;
+}
+.shop1{
+	width: 7.05rem;
+	height: 3.00rem;
+/* 	background: red; */
+	margin-left: 0.24rem;
+}
+.shop1 .daogou1{
+	width: 3.5rem;
+	height: 3rem;
+	background: black;
+	float: left;
+
+}
+.shop1 .daogou2{
+	width: 3.5rem;
+	height: 1.7rem;
+	/* background: red; */
+	float: left;
+}
+.shop1 .daogou3{
+	width: 3.5rem;
+	height: 1.3rem;
+	background: yellow;
+	float: left;
+}
+.shop1 .daogou1 img{
+	width: 3.5rem;
+	height: 3rem;
+}
+.shop1 .daogou2 img{
+	width: 3.5rem;
+	height: 1.7rem; 
+}
+.shop1 .daogou3 img{
+	width: 3.5rem;
+	height: 1.3rem;
+}
+.shop2 img{
+	width: 7.5rem;
+	height: 1.2rem;
+/* 	margin-top: 0.2rem; */
+}
+.goodfood{
+	width: 7.5rem;
+	height: 0.7rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.2rem 0;
+
+}
+.food{
+	width: 1.52rem;
+	height: 0.5rem;
+	border: 1px solid #8FCEE9;
+	border-radius: 0.25rem;
+
+}
+.food h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+a .title{
+	width: 7.06rem;
+	height: 2.35rem;
+	background-color: white;
+	border: 1px solid #8FD5EB;
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.24rem;
+}
+a .title .picture img{
+	width: 1.28rem;
+	height: 1.88rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+a .title .content{
+	width: 5.77rem;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+a .title .content .biaoti{
+	width: 5.75rem;
+	height: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+a .title .content .biaoti .dianname{
+	width: 2.62rem;
+	height: 0.35rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	margin-top: 0.1rem;
+}
+a .title .content .biaoti .dianname p{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #333;
+}
+a .title .content .biaoti .star{
+	width: 1.67rem;
+	height: 0.34rem;
+}
+a .title .content .biaoti .star p{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: yellow;
+}
+a .title .content .dian{
+	width: 5.75rem;
+	height: 0.2rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+}
+a .title .content .dian p{
+	font-size: 0.2rem;
+	color: red;
+	/* margin-top:-1.8rem; */
+
+}
+a .title .content .jieshao{
+	width: 4.50rem;
+	height: 0.6rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	/* margin-top: -1.5rem; */
+}
+a .title .content .jieshao P{
+	font-size: 0.2rem;
+	color: #333;
+}
+a .title .content .manjian{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+a .title .content .manjian .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+a .title .content .manjian .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #333;
+}
+
+a .title .content .manjian .right{
+	width: 3.21rem;
+	height: 0.30rem;
+}
+a .title .content .manjian .right p{
+	font-size: 0.2rem;
+	color: black;
+	color: #333;
+}
+a .title .content .tejia{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+a .title .content .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+a .title .content .tejia{
+	width: 5.4rem;
+	height: 0.32rem;
+	display: flex;
+	flex-direction: row;
+}
+a .title .content .tejia .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #333;
+}
+
+a .title .content .tejia .right{
+	width: 1.6rem;
+	height: 0.30rem;
+}
+a .title .content .tejia .right p{
+	font-size: 0.2rem;
+	color: black;
+	color: #333;
+}
+a .title .content .tejia .tu1{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+a .title .content .tejia .tu1 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+a .title .content .tejia .tu1 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+	color: #333;
+}a .title .content .tejia .tu2{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+a .title .content .tejia .tu2 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+a .title .content .tejia .tu2 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+	color: #333;
+}
+.title2{
+	width: 7.06rem;
+	height: 2.35rem;
+	background-color: white;
+	border: 1px solid #8FD5EB;
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.24rem;
+}
+.title2 .picture img{
+	width: 1.28rem;
+	height: 1.88rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.title2 .content{
+	width: 5.77rem;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+.title2 .content .biaoti{
+	width: 5.75rem;
+	height: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+.title2 .content .biaoti .dianname{
+	width: 2.62rem;
+	height: 0.35rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	margin-top: 0.1rem;
+}
+.title2 .content .biaoti .dianname p{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.title2 .content .biaoti .star{
+	width: 1.67rem;
+	height: 0.34rem;
+}
+.title2 .content .biaoti .star p{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: yellow;
+}
+.title2 .content .dian{
+	width: 5.75rem;
+	height: 0.2rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+}
+.title2 .content .dian p{
+	font-size: 0.2rem;
+	color: red;
+	/* margin-top:-1.8rem; */
+
+}
+.title2 .content .jieshao{
+	width: 4.50rem;
+	height: 0.6rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	/* margin-top: -1.5rem; */
+}
+.title2 .content .jieshao P{
+	font-size: 0.2rem;
+
+}
+.title2 .content .manjian{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+.title2 .content .manjian .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+.title2 .content .manjian .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+
+.title2 .content .manjian .right{
+	width: 3.21rem;
+	height: 0.30rem;
+}
+.title2 .content .manjian .right p{
+	font-size: 0.2rem;
+	color: black;
+}
+.title2 .content .tejia{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+.title2 .content .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+.title2 .content .tejia{
+	width: 5.4rem;
+	height: 0.32rem;
+	display: flex;
+	flex-direction: row;
+}
+.title2 .content .tejia .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+
+.title2 .content .tejia .right{
+	width: 1.6rem;
+	height: 0.30rem;
+}
+.title2 .content .tejia .right p{
+	font-size: 0.2rem;
+	color: black;
+}
+.title2 .content .tejia .tu1{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+.title2 .content .tejia .tu1 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+.title2 .content .tejia .tu1 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+}.title2 .content .tejia .tu2{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+.title2 .content .tejia .tu2 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+.title2 .content .tejia .tu2 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+}
+.title5{
+	width: 7.06rem;
+	height: 2.35rem;
+	background-color: white;
+	border: 1px solid #8FD5EB;
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.24rem;
+	margin-bottom: 1rem;
+}
+.title5 .picture img{
+	width: 1.28rem;
+	height: 1.88rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.title5 .content{
+	width: 5.77rem;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+.title5 .content .biaoti{
+	width: 5.75rem;
+	height: 0.35rem;
+	display: flex;
+	flex-direction: row;
+}
+.title5 .content .biaoti .dianname{
+	width: 2.62rem;
+	height: 0.35rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	margin-top: 0.1rem;
+}
+.title5 .content .biaoti .dianname p{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.title5 .content .biaoti .star{
+	width: 1.67rem;
+	height: 0.34rem;
+}
+.title5 .content .biaoti .star p{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: yellow;
+}
+.title5 .content .dian{
+	width: 5.75rem;
+	height: 0.2rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+}
+.title5 .content .dian p{
+	font-size: 0.2rem;
+	color: red;
+	/* margin-top:-1.8rem; */
+
+}
+.title5 .content .jieshao{
+	width: 4.50rem;
+	height: 0.6rem;
+	background: white;
+	float: left;
+	padding-left: 0.26rem;
+	/* margin-top: -1.5rem; */
+}
+.title5 .content .jieshao P{
+	font-size: 0.2rem;
+
+}
+.title5 .content .manjian{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+.title5 .content .manjian .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+.title5 .content .manjian .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+
+.title5 .content .manjian .right{
+	width: 3.21rem;
+	height: 0.30rem;
+}
+.title5 .content .manjian .right p{
+	font-size: 0.2rem;
+	color: black;
+}
+.title5 .content .tejia{
+	width: 5.73rem;
+	height: 0.35rem;
+	background: white;
+	/* float: left; */
+	padding-left: 0.26rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+
+}
+.title5 .content .left{
+	width: 0.86rem;
+	height: 0.30rem;
+	border:1px solid #8FD5EB;
+	border-radius: 0.15rem; 
+}
+.title5 .content .tejia{
+	width: 5.4rem;
+	height: 0.32rem;
+	display: flex;
+	flex-direction: row;
+}
+.title5 .content .tejia .left h4{
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+
+.title5 .content .tejia .right{
+	width: 1.6rem;
+	height: 0.30rem;
+}
+.title5 .content .tejia .right p{
+	font-size: 0.2rem;
+	color: black;
+}
+.title5 .content .tejia .tu1{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+.title5 .content .tejia .tu1 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+.title5 .content .tejia .tu1 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+}.title5 .content .tejia .tu2{
+	width: 0.97rem;
+	height: 0.3rem;margin-left: 0.2rem;
+		display: flex;
+	flex-direction: row;
+	/* background-color: red; */
+}
+.title5 .content .tejia .tu2 img{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+}
+.title5 .content .tejia .tu2 p{
+	width: 0.2rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+}
+footer{
+	width: 7.5rem;
+	height: 1rem;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+footer .icon{
+	width: 0.91rem;
+	height: 0.76rem;
+/* 	background: green; */
+
+}
+footer .icon .tu1{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu1 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+
+}
+footer .icon .tu1 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}
+footer .icon .tu2{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu2 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu2 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+}
+footer .icon .tu3{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu3 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu3 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+	color: #333;
+}
+footer .icon .tu4{
+	width: 0.91rem;
+	height: 0.76rem;
+}
+footer .icon .tu4 img{
+	display: block;
+	width: 0.51rem;
+	height: 0.52rem;
+	margin-left: 0.2rem;
+	margin-top: 0.1rem;
+}
+footer .icon .tu4 p{
+	width: 0.6rem;
+	height: 0.28rem;
+	display: block;
+	font-size: 0.18rem;
+	margin-left: 0.22rem;
+	color: #333;
+}

@@ -1,0 +1,288 @@
+/*
+* @Author: 麦子
+* @Date:   2018-08-11 10:27:25
+* @Last Modified by:   麦子
+* @Last Modified time: 2018-08-16 16:46:16
+*/
+body{
+	background-color:#ffffff;
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+	background-color: #0fbaee;
+/* 	position: fixed;
+	top: 0;
+	left: 0; */
+}
+header .tubiao{
+	width: 7.5rem;
+	height: 0.87rem;
+/* 	background-color: white; */
+	display: flex;
+	flex-direction: row;
+}
+header .tubiao .zi{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .zi h4{
+	display: block;
+	font-size: 0.35rem;
+	width: 2.4rem;
+	height: 0.66rem;
+	margin-left: 2.2rem;
+	margin-top: 0.2rem;
+	color: #c1e8f4;
+}
+header .tubiao a .ic{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic img{
+	display: block;
+	width: 0.26rem;
+	height: 0.36rem;
+	margin-left: 0.3rem;
+	margin-top: 0.3rem;
+}
+header .tubiao .ic2{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic2 img{
+	margin-left: 4.5rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+header .tubiao .ic3{
+	width: 0.7rem;
+	height: 0.66rem;
+}
+header .tubiao .ic3 img{
+	margin-left: 4.5rem;
+	margin-top: 0.3rem;
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.zhuti{
+	width: 7.02rem;
+	height: 5.6rem;
+	/* background-color: red; */
+	margin-left: 0.24rem;
+}
+.zhuti .pic{
+	width: 7.02rem;
+	height: 3.32rem;
+	background-image: url('../img/foodtu.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0.3rem;
+}
+.zhuti .text1{
+	width: 3.03rem;
+	height: 0.33rem;
+	/* background-color: orange; */
+	margin-top: 0.4rem;
+}
+.zhuti .text1 h3{
+	font-size: 0.26rem;
+	margin-left: 0.1rem;
+}
+.zhuti .text2{
+	width: 3.03rem;
+	height: 0.15rem;
+	/* background-color: orange; */
+}
+.zhuti .text2 h4{
+	font-size: 0.2rem;
+	margin-left: 0.1rem;
+}
+.zhuti .text3{
+	width: 3.03rem;
+	height: 0.33rem;
+	/* background-color: orange; */
+}
+.zhuti .text3 h3{
+	font-size: 0.26rem;
+	margin-left: 0.1rem;
+}
+.zhuti .text4{
+	width: 3.03rem;
+	height: 0.33rem;
+	/* background-color: orange; */
+}
+.zhuti .text4 h4{
+	font-size: 0.26rem;
+	margin-left: 0.1rem;
+	color: orange;
+}
+.zhuti .text5{
+	width: 3.03rem;
+	height: 0.36rem;
+	/* background-color: orange; */
+	float: right;
+	margin-top: -0.5rem;
+
+}
+.zhuti .text5 h3{
+	font-size: 0.33rem;
+	margin-left: 0.1rem;
+	color: red;
+}
+.zhuti .text6{
+	width: 6rem;
+	height: 0.33rem;
+	/* background-color: orange; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.leabel{
+	width: 1.5rem;
+	height: 0.32rem;
+	background-color: #0fbaee;
+	border-radius: 0.16rem;
+}
+.zhuti .text6 .leabel h3{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.zhuti .text7{
+	width: 3.03rem;
+	height: 0.33rem;
+	/* background-color: orange; */
+}
+.zhuti .text7 h4{
+	font-size: 0.2rem;
+	color: #797979;
+	margin-left: 0.1rem;
+}
+.manu{
+	width: 7.02rem;
+	height: 3.48rem;
+	/* background-color: green; */
+	margin-left: 0.24rem;
+}
+.manu .font1{
+	width: 1.16rem;
+	height: 0.46rem;
+	/* background-color: red; */
+}
+.manu .font1 h3{
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin-left: 0.1rem;
+
+}
+.manu .font2{
+	width: 7.02rem;
+	height: 0.85rem;
+	background-color: #eeeeee;
+	border-radius: 0.425rem;
+
+}
+.manu .font2 h4{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.85rem;
+}
+.manu .font3{
+	width: 1.5rem;
+	height: 0.46rem;
+	/* background-color: red; */
+}
+.manu .font3 h3{
+	font-size: 0.3rem;
+	font-weight: bold;
+	margin-left: 0.1rem;
+}
+.manu .font4{
+	width: 2.08rem;
+	height: 0.4rem;
+	background-color: #0fbaee;
+	float: right;
+	margin-top: -0.4rem;
+	border-radius: 0.2rem;
+}
+.manu .font4 h3{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+}
+.manu .font5{
+	width: 6.48rem;
+	height: 1.18rem;
+	background-color: #eeeeee;
+	margin-left: 0.24rem;
+}
+.manu .font5 .left{
+	width: 1.15rem;
+	height: 1.15rem;
+	background-image: url('../img/touxiang.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.manu .font5 .right{
+	float: right;
+	margin-top: -1.0rem;
+}
+.manu .font5 .right h3{
+	display: block;
+	font-size: 0.3rem;
+	margin-left: -4.9rem;
+}
+.manu .font5 .right h4{
+	font-size: 0.3rem;
+	display: block;
+}
+.food{
+	width: 7.02rem;
+	height: 8.56rem;
+	/* background-color: orange; */
+	margin-left: 0.24rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.food .top{
+	width: 7.03rem;
+	height: 0.5rem;
+	background-color: white;
+}
+.food .top h3{
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+}
+.food .food1{
+	width: 3.15rem;
+	height: 3.6rem;
+	background-color: #eeeeee;
+	border-radius: 0.1rem;
+}
+.food .food1 .top{
+	width: 3.12rem;
+	height: 2.1rem;
+	background-image: url('../img/yuanjiao.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.food .food1 .foot h3{
+	margin-top: 0.1rem;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.food .food1 .foot h4{
+	font-size: 0.25rem;
+	text-align: center;
+}
+.food .food1 .foot h5{
+	font-size: 0.3rem;
+	text-align: center;
+	color: red;
+}
